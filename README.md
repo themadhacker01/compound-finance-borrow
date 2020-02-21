@@ -21,7 +21,9 @@ https://faucet.kovan.network/
 https://gitter.im/kovan-testnet/faucet
 
 <br>
+
 --------------------------------------------------------------------------------------------------
+
 <br>
 
 ## Notes
@@ -30,7 +32,9 @@ https://gitter.im/kovan-testnet/faucet
 * Decimal values cannot be used for Dai, and large numbers have to be passed as BigNumber objects or strings
 
 <br>
+
 --------------------------------------------------------------------------------------------------
+
 <br>
 
 ## Running the Dapp
