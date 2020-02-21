@@ -1,7 +1,5 @@
 ## Resources
 
---------------------------------------------------------------------------------------------------
-
 ### Building Dapps using Web3, MetaMask
 
 https://medium.com/crowdbotics/building-ethereum-dapps-with-meta-mask-9bd0685dfd57
@@ -12,28 +10,28 @@ https://metamask.github.io/metamask-docs/
 https://bitsofco.de/calling-smart-contract-functions-using-web3-js-call-vs-send/
 https://observablehq.com/@consensys-academy/web3-js-and-metamask
 
---------------------------------------------------------------------------------------------------
-
 ### General Web Development
 
 https://www.w3schools.com/js/js_popup.asp
 https://stackoverflow.com/questions/39679505/using-await-outside-of-an-async-function
-
---------------------------------------------------------------------------------------------------
 
 ### Kovan Test-net : Ether Faucets
 
 https://faucet.kovan.network/
 https://gitter.im/kovan-testnet/faucet
 
+<br>
 --------------------------------------------------------------------------------------------------
+<br>
 
 ## Notes
 
 * When testing, test with small amounts of ETH and Dai (I used 1 Dai) since faucets can only provide 1-3 KETH in a 24h period.
 * Decimal values cannot be used for Dai, and large numbers have to be passed as BigNumber objects or strings
 
+<br>
 --------------------------------------------------------------------------------------------------
+<br>
 
 ## Running the Dapp
 
