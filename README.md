@@ -43,6 +43,6 @@ https://gitter.im/kovan-testnet/faucet
 
 2. Run `npm init` inside `Test` to ensure that all NodeJS dependencies mentioned are installed
 
-3. Go to `Test/server/server.js` and modify the `proj_dir` variable to hold the path of the repository in your system
+3. Go to `Test/server/server.js` and modify the `proj_dir` variable to hold the path of the `Test` repository in your system
 
 4. Open a terminal inside `Test` directory. Run `npm run dev` to verify that there are no build errors and start the NodeJS server
