@@ -28,7 +28,7 @@ https://gitter.im/kovan-testnet/faucet
 
 ## Notes
 
-* When testing, test with small amounts of ETH and Dai (I used 1 Dai) since faucets can only provide 1-3 KETH in a 24h period.
+* When testing, use small amounts of ETH and Dai (I used 1 Dai) since faucets can only provide 1-3 KETH (Kovan ETH) in a 24h period.
 * Decimal values cannot be used for Dai, and large numbers have to be passed as BigNumber objects or strings
 
 <br>
