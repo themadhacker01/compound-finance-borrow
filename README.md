@@ -59,5 +59,7 @@ https://gitter.im/kovan-testnet/faucet
 The Etherscan links corresponding to the transactions executed in the video `demo-vid.mp4` are :
 
 Txn 41 : https://kovan.etherscan.io/tx/0x69182c733ab96e53a210443381999a6fdd42cb2c1cc4995b544dd37b52f69c0e
+
 Txn 42 : https://kovan.etherscan.io/tx/0x934db5f1373e9c4c0c361775d2dc65828224468058e7f1f108ff56be7ce1c577
+
 Txn 43 : https://kovan.etherscan.io/tx/0x65d6484df2205a909c1ed1a96dd575a7813a0eecbc12075222c45de2295f8a7b
