@@ -9,6 +9,7 @@ https://ethereum.stackexchange.com/questions/19665/how-to-calculate-transaction-
 https://metamask.github.io/metamask-docs/
 https://bitsofco.de/calling-smart-contract-functions-using-web3-js-call-vs-send/
 https://observablehq.com/@consensys-academy/web3-js-and-metamask
+https://ylv.io/10-web3-metamask-use-cases-ever-blockchain-developer-needs/
 
 ### General Web Development
 
@@ -46,3 +47,17 @@ https://gitter.im/kovan-testnet/faucet
 3. Go to `Test/server/server.js` and modify the `proj_dir` variable to hold the path of the `Test` repository in your system
 
 4. Open a terminal inside `Test` directory. Run `npm run dev` to verify that there are no build errors and start the NodeJS server
+
+<br>
+
+--------------------------------------------------------------------------------------------------
+
+<br>
+
+## Video Notes
+
+The Etherscan links corresponding to the transactions executed in the video `demo-vid.mp4` are :
+
+Txn 41 : https://kovan.etherscan.io/tx/0x69182c733ab96e53a210443381999a6fdd42cb2c1cc4995b544dd37b52f69c0e
+Txn 42 : https://kovan.etherscan.io/tx/0x934db5f1373e9c4c0c361775d2dc65828224468058e7f1f108ff56be7ce1c577
+Txn 43 : https://kovan.etherscan.io/tx/0x65d6484df2205a909c1ed1a96dd575a7813a0eecbc12075222c45de2295f8a7b

@@ -5894,7 +5894,7 @@ and displays it in the field minCollatAmt uneditable field
 		var minCollatEth = COLLAT_RATIO * borrowAmtEth;
 		$("#minCollatAmt").val("" + minCollatEth);
 
-		window.alert("The minimum collateral required to comply with the protocol will be mentioned below. You can copy the same into the field below or enter a higher amount of ETH that you wish to use as collateral.");
+		window.alert("The minimum collateral required to comply with the protocol will be mentioned below. You can enter the same or higher amount of ETH that you wish to use as collateral into the field \"Enter your collateral amount (in ETH)\"");
 	},
 
 /*
@@ -5928,14 +5928,7 @@ This performs 3 operations to approve the loan :
 				if(balance >= finalCollatEth + (gasPrice * gasLimit * 3 / 10**18))
 				{
 					console.log('MetaMask account ' + userAccount + ' has required balance', balance);
-					window.confirm("Are you sure you want to proceed to borrow " + $("#minCollatAmt").val() + " Dai and deposit " + finalCollatEth + " as collateral?", function(res){
-						if(res == true){
-							App.ExeBorrowAmount(userAccount, finalCollatEth);
-						}
-						else{
-							window.alert("The process was cancelled.");
-						}
-					});
+					App.ExeBorrowAmount(userAccount, finalCollatEth);
 				}
 				else{
 					console.log("MetaMask account " + userAccount + " has insufficient balance", balance);
@@ -5951,7 +5944,7 @@ This performs 3 operations to approve the loan :
 	ExeBorrowAmount: async function(userAccount, finalCollatAmt){
 		console.log("In ExeBorrowAmount");
 		
-		window.alert("You will need to confirm 3 transactions in succession from you MetaMask wallet to successfully borrow the Dai via the Compound Finance protocol.");
+		window.alert("You will need to confirm 3 transactions in succession from your MetaMask wallet to successfully borrow the Dai via the Compound Finance protocol.");
 
 		// Mints cEth from the ETH sent as collateral
 		CEthContract.methods.mint().send({from: userAccount, value: finalCollatAmt * 10**18, gas: gasLimit})
